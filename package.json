@@ -11,6 +11,7 @@
   "author": "Jose Caldas",
   "license": "ISC",
   "dependencies": {
+    "@fastify/cors": "^9.0.1",
     "eslint": "^9.4.0",
     "fastify": "^4.27.0",
     "zod": "^3.23.8"

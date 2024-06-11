@@ -1,7 +1,9 @@
 import Fastify from 'fastify'
 import router from './router'
+import cors from '@fastify/cors'
 
 export const app = Fastify()
+app.register(cors)
 
 app.register(router)
 

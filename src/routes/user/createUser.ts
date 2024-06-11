@@ -11,6 +11,7 @@ async function createUser(app: FastifyInstance) {
     }
 
     const newUser = result.data
+
     users.push(newUser)
     reply.status(201).send(newUser)
   })
