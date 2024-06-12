@@ -1,8 +1,8 @@
 import { describe, test, expect, beforeAll, afterAll } from 'vitest'
 import Fastify, { FastifyInstance } from 'fastify'
 import cors from '@fastify/cors'
-import getUsers from './routes/user/getUsers'
-import createUser from './routes/user/createUser'
+import getUsers from '../routes/user/getUsers'
+import createUser from '../routes/user/createUser'
 
 const url = 'http://localhost:8080/users'
 const tomorrow = new Date()
